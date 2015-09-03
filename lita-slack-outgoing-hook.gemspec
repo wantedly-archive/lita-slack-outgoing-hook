@@ -1,12 +1,12 @@
 Gem::Specification.new do |spec|
   spec.name          = "lita-slack-outgoing-hook"
   spec.version       = "0.1.0"
-  spec.authors       = ["koudaiii"]
-  spec.email         = ["cs006061@gmail.com"]
-  spec.description   = "TODO: Add a description"
-  spec.summary       = "TODO: Add a summary"
-  spec.homepage      = "TODO: Add a homepage"
-  spec.license       = "TODO: Add a license"
+  spec.authors       = ["Koudai Sakabe"]
+  spec.email         = ["kou@wantedly.com"]
+  spec.description   = "By using slack outgoing webhooks, you can get almost all messages including bot mention"
+  spec.summary       = "Lita handler for Slack outgoing webhooks"
+  spec.homepage      = "https://github.com/wantedly/lita-slack-outgoing-hook"
+  spec.license       = "MIT"
   spec.metadata      = { "lita_plugin_type" => "handler" }
 
   spec.files         = `git ls-files`.split($/)
